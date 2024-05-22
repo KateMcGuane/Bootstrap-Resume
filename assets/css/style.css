@@ -22,6 +22,25 @@
     background-color: #525252;
 }
 
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0; /* Save getting surprises later in design */
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
 /* ----------------------------------------Heading */
 
 header {
@@ -112,4 +131,12 @@ header {
 .hvr-sweep-to-bottom:before { /* "before" is what's targeted in DevTools */
     background-color: rgba(0, 0, 0, 0.2); /* Creates tinted effect to sweep down */
     height: 120px; /* Fills entire emenu item */
+}
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px; /* Can grow beyond, if not defaults to this (provides visual symmetry) */
 }
