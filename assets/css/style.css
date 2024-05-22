@@ -58,3 +58,16 @@ header {
     margin-bottom: 90px; /* Will stand out against nav elements to follow */
     color: #fff;
 }
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li { /* Override menucontainer styling for lettering */
+    font-size: 14px;
+    padding: 0;
+}
