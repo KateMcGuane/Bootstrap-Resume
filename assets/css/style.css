@@ -145,4 +145,20 @@ footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px; /* Can grow beyond, if not defaults to this (provides visual symmetry) */
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
 }
