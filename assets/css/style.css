@@ -135,7 +135,7 @@ header {
 /* ----------------------------------------Hover.css */
 
 .hvr-sweep-to-bottom:before { /* "before" is what's targeted in DevTools */
-    background-color: rgba(0, 0, 0, 0.2); /* Creates tinted effect to sweep down */
+    background: rgba(0, 0, 0, 0.2); /* Creates tinted effect to sweep down */
     height: 120px; /* Fills entire emenu item */
 }
 
