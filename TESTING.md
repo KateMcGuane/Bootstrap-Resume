@@ -1,16 +1,14 @@
-# Hobby - Testing
+# WEBSITE_NAME - Testing
 
-![Hobby shown on a variety of screen sizes](assets/images/hobby_am_i_responsive.PNG)
+![WEBSITE_NAME shown on a variety of screen sizes](assets/images/WEBSITE_NAME_am_i_responsive.PNG)
 
-This file was created on the second edition of this project. All issues in the assessment feedback form were carried out first, followed by any additional information that would be of benefit to the README & TESTING sections.
-
-Visit the deployed site [Hobby](https://katemcguane.github.io/hobby/index.html) for reference.
+Visit the deployed site [WEBSITE_NAME](https://katemcguane.github.io/WEBSITE_NAME/index.html) for reference.
 
 
 ---
 
 ## Compatability
-
+*SAMPLE*
 The website was tested on three different browsers: Brave, Chrome, & Microsoft Edge. It was compatable across all three.
 
 The following elements were tested manually on each of the browsers:
@@ -39,7 +37,7 @@ The website was tested manually throughout the project development using DevTool
 
 The responsiveness was confirmed with [Responsive Website Design Tester](https://responsivedesignchecker.com/). The following are samples of some of the responsiveness implemented.
 
-
+*GIF CREATED TO ACCUMULATE A SELECTION OF PHOTOS FOR IMMEDIATE ILLUSTRATIVE PURPOSES*
   ### Desktop Screens
   ![Desktop Responsiveness](testing/responsiveness/desktop_responsiveness.gif)
 
@@ -57,7 +55,7 @@ The responsiveness was confirmed with [Responsive Website Design Tester](https:/
 
 ## Validator Testing
 
-[W3C](https://katemcguane.github.io/hobby/discover.html) was used to validate the HTML on all pages of the website.
+[W3C](https://katemcguane.github.io/WEBSITE_NAME.html) was used to validate the HTML on all pages of the website.
 
 ### HTML
 
@@ -68,27 +66,20 @@ The responsiveness was confirmed with [Responsive Website Design Tester](https:/
   ![index.html](testing/w3/w3_index.PNG)
 
 
-  #### Discover Page
+  #### PAGE-NAME
 
   - No errors or warnings were found when passing through the official W3C validator.
 
-  ![discover.html](testing/w3/w3_discover.PNG)
+  ![PAGE-NAME.html](testing/w3/w3_PAGE-NAME.PNG)
 
 
-  #### Sign Up Page
+  #### PAGE-NAME
 
   - No errors or warnings were found when passing through the official W3C validator.
   - I did encounter some errors before final resolution. See solved bugs below.
 
-  ![signup.html](testing/w3/w3_signup.PNG)
+  ![PAGE-NAME.html](testing/w3/w3_PAGE-NAME.PNG)
 
-
-#### Response Page
-
-  - No errors or warnings were found when passing through the official W3C validator.
-  - I did encounter a warning before final resolution. See solved bugs below.
-
-  ![response.html](testing/w3/w3_response.PNG)
 
 
 ### CSS
@@ -110,33 +101,26 @@ I used Lighthouse in DevTools to confirm that the website is performing well, ac
   ### About Page (Home Page)
 
   #### Desktop
-  ![About Page Lighthouse Mobile](testing/lighthouse/lighthouse_mobile_hobby_about.PNG)
+  ![PAGE-NAME Lighthouse DESKTOP](testing/lighthouse/lighthouse_mobile_WEBSITE-NAME_PAGE.PNG)
   #### Mobile
-  ![About Page Lighthouse Desktop](testing/lighthouse/lighthouse_desktop_hobby_about.PNG)
+  ![PAGE-NAME Lighthouse MOBILE](testing/lighthouse/lighthouse_mobile_WEBSITE-NAME_PAGE.PNG)
 
 
-  ### Discover Page
+  ### PAGE-NAME
 
   #### Desktop
-  ![Discover Page Lighthouse Mobile](testing/lighthouse/lighthouse_mobile_hobby_discover.PNG)
+  ![PAGE-NAME Lighthouse DESKTOP](testing/lighthouse/lighthouse_mobile_WEBSITE-NAME_PAGE.PNG)
   #### Mobile
-  ![Discover Page Lighthouse Desktop](testing/lighthouse/lighthouse_desktop_hobby_discover.PNG)
+  ![PAGE-NAME MOBILE](testing/lighthouse/lighthouse_mobile_WEBSITE-NAME_PAGE.PNG)
 
 
   ### Sign Up Page
 
   #### Desktop
-  ![Sign Up Page Lighthouse Mobile](testing/lighthouse/lighthouse_mobile_hobby_signup.PNG)
+ ![PAGE-NAME Lighthouse DESKTOP](testing/lighthouse/lighthouse_mobile_WEBSITE-NAME_PAGE.PNG)
   #### Mobile
-  ![Sign Up Page Lighthouse Desktop](testing/lighthouse/lighthouse_desktop_hobby_signup.PNG)
+ ![PAGE-NAME MOBILE](testing/lighthouse/lighthouse_mobile_WEBSITE-NAME_PAGE.PNG)
 
-
-  ### Response page
-
-  #### Desktop
-  ![Response Page Lighthouse Mobile](testing/lighthouse/lighthouse_mobile_hobby_response.PNG)
-  #### Mobile
-  ![Response Page Lighthouse Desktop](testing/lighthouse/lighthouse_desktop_hobby_response.PNG)
 
 
 ---
