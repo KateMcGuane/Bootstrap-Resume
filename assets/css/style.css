@@ -310,7 +310,7 @@ footer {
 }
 
 .timeline-item::before {
-    content: attr(datat-dates);
+    content: attr(data-dates);
     position: absolute;
     left: 2.5em;
     top: 3em;
