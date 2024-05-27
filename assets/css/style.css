@@ -342,3 +342,29 @@ footer {
 .history-items {
     margin-bottom: 30px;   /* Will always get pushed out */
 }
+
+/* ---------------------------------------- Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;   /* So form won't take up entire width of page */
+}
+
+.button-container {
+    padding-bottom: 20px;
+}
+
+button[type="submit"] {   /* Can target with particular attribute */
+    margin-top: 15px;
+    border-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
