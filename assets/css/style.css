@@ -8,7 +8,7 @@
 }
 
 .bg-color-three-reasons {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .bg-color-personal-info {
@@ -20,7 +20,7 @@
 }
 
 .bg-color-contact {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .bg-color-conferences {
@@ -130,7 +130,7 @@ header {
     font-weight: 100;
     font-size: 46px;   /* Customize h1 */
     margin-top: 50px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .title {
@@ -139,7 +139,7 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;   /* Will stand out against nav elements to follow */
-    color: #fff;
+    color: #ffffff;
 }
 
 .list-inline-item:not(:last-child) {
@@ -167,7 +167,7 @@ header {
 .menuitem a {
     width: 100%;   /* Makes entirity of <div> clickable */
     text-decoration: none;   /* Removes underscore  under the text of our link */
-    color: #fff;
+    color: #ffffff;
     height: 120px;
 }
 
@@ -210,14 +210,14 @@ footer .cv-pdf i {
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
-    transition: all 0.35s ease-in-out;   /* Always put transitions in parent element vs hover */
-    -moz-transition: all 0.35s ease-in-out;   /* Vendor prefixes */
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 footer .cv-pdf i:hover {
     color: #e84610;   /* Colour pf icon is highlighted */
+    transition: all 0.35s ease-in-out;   /* Always put transitions in parent element vs hover */
+    -moz-transition: all 0.35s ease-in-out;   /* Vendor prefixes */
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links {
@@ -246,7 +246,7 @@ footer .cv-pdf i:hover {
 }
 
 #footer-details {
-    padding: 20px;   /* Gives vertical space to top of footer */
+    margin: 20px;   /* Gives vertical space to top of footer */
 }
 
 
@@ -264,7 +264,7 @@ footer .cv-pdf i:hover {
 /* ---------------------------------------- Personal Info */
 
 .personal-info-item {
-    margin-bottom: 20px;   /* Cerate vertical space between each item */
+    margin-bottom: 20px;   /* Create vertical space between each item */
     display: block;   /* Start & end with new line; occupy entire horizontal space */
     clear: both;   /* No other items can appear either side of it */
 }
@@ -292,6 +292,7 @@ footer .cv-pdf i:hover {
 }
 
 .personal-info-item .value {
+    display: inline-block;
     position: relative;   /* relative to key (predecessor) */
     width: 60%;
 }
